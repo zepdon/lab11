@@ -10,32 +10,32 @@
         cin.ignore();
         cin.ignore();
         srand(time(0));
-        int x=rand()%10;
-        if (x==0 || x==1)
+        int x=rand()%9;
+        if (x==0)
         {
             cout << "You will get A in this 261102.";
-        }else if (x==2)
+        }else if (x==1)
         {
             cout << "You will get B+ in this 261102.";
-        }else if (x==3)
+        }else if (x==2)
         {
             cout << "You will get B in this 261102.";
-        }else if (x==4)
+        }else if (x==3)
         {
             cout << "You will get C+ in this 261102.";
-        }else if (x==5)
+        }else if (x==4)
         {
             cout << "You will get C in this 261102.";
-        }else if (x==6)
+        }else if (x==5)
         {
             cout << "You will get D+ in this 261102.";
-        }else if (x==7)
+        }else if (x==6)
         {
             cout << "You will get D in this 261102.";
-        }else if (x==8)
+        }else if (x==7)
         {
             cout << "You will get F in this 261102.";
-        }else if (x==9)
+        }else if (x==8)
         {
             cout << "You will get W in this 261102.";
         }
